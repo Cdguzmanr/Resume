@@ -1,0 +1,74 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+/* Pages Layout */
+.BioText{
+    float: left;
+    width: 60%;
+    height: auto;
+    margin: 20px 0px;
+
+}
+
+.Skills {
+    clear: both;
+}
+
+.Skills ul {
+    column-count: 3;
+}
+
+
+
+
+/* Image General Design */
+img {
+    border: 3px;
+    border-radius: 0.3em;
+}
+
+.leftImage {
+    float: left;
+    padding-right: 10px;
+    border: 3px;
+    border-radius: 1em;
+}
+
+.rightImage {
+    float: right;
+    padding-left: 10px;
+    border: 3px;
+    border-radius: 1em;
+}
+
+.centerImage {
+    padding-left: 10px;
+    border: 3px;
+    border-radius: 1em;
+}
+
+
