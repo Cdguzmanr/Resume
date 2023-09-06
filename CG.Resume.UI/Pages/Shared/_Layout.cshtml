@@ -23,6 +23,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Work">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Education">Education</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                     </ul>
@@ -31,14 +37,20 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" style="padding-bottom: 100px;">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - CG.Resume.UI - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2023 - Carlos Guzman - Resume <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <address>
+                <small>Interested in my profile? Contact me:</small> <br />
+
+                <small><strong>Phone: </strong><a href="tel:+1 920 512 6883">+1 920 512 6883</a></small> <br />
+                <small><strong>eMail: </strong><a href="mailto:cguzmanr17@gmail.com">cguzmanr17@gmail.com</a></small>
+            </address>
         </div>
     </footer>
 

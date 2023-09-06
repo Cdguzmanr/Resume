@@ -42,7 +42,9 @@ body {
     column-count: 3;
 }
 
-
+.Container {
+    margin: 30px 0;
+}
 
 
 /* Image General Design */
